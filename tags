@@ -1,0 +1,356 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHUNK_SIZE_32BIT	libhashfile.h	371;"	d
+CHUNK_SIZE_64BIT	libhashfile.h	372;"	d
+FILE_HEADER_SIZE	libhashfile.c	37;"	d	file:
+FIXED	libhashfile.h	/^	FIXED = 1,$/;"	e	enum:chnking_method
+HASH_FILE_MAGIC	libhashfile.h	142;"	d
+HASH_FILE_VERSION1	libhashfile.h	150;"	d
+HASH_FILE_VERSION2	libhashfile.h	151;"	d
+HASH_FILE_VERSION3	libhashfile.h	152;"	d
+HASH_FILE_VERSION4	libhashfile.h	153;"	d
+HASH_FILE_VERSION5	libhashfile.h	154;"	d
+HASH_FILE_VERSION6	libhashfile.h	155;"	d
+HASH_FILE_VERSION7	libhashfile.h	156;"	d
+HLIST_HEAD	list.h	562;"	d
+HLIST_HEAD_INIT	list.h	561;"	d
+INIT_HLIST_HEAD	list.h	563;"	d
+INIT_HLIST_NODE	list.h	/^static inline void INIT_HLIST_NODE(struct hlist_node *h)$/;"	f
+INIT_LIST_HEAD	list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+LIST_HEAD	list.h	34;"	d
+LIST_HEAD_INIT	list.h	32;"	d
+LIST_POISON1	list.h	25;"	d
+LIST_POISON2	list.h	26;"	d
+MAX_PATH_SIZE	libhashfile.h	143;"	d
+MAX_SYSID_LEN	libhashfile.h	144;"	d
+MD5_48BIT_HASH	libhashfile.h	/^	MD5_48BIT_HASH = 3,$/;"	e	enum:hshing_method
+MD5_64BIT_HASH	libhashfile.h	/^	MD5_64BIT_HASH = 5,$/;"	e	enum:hshing_method
+MD5_HASH	libhashfile.h	/^	MD5_HASH = 1,$/;"	e	enum:hshing_method
+MURMUR_HASH	libhashfile.h	/^	MURMUR_HASH = 4,$/;"	e	enum:hshing_method
+NONE	libhashfile.h	/^	NONE = 0,$/;"	e	enum:cmpr_method
+Process_SourceFile	my-index.c	/^int Process_SourceFile(char* fileName,int currentID){$/;"	f
+RABIN	libhashfile.h	/^	RABIN = 3$/;"	e	enum:var_chnking_algo
+RANDOM	libhashfile.h	/^	RANDOM = 1,$/;"	e	enum:var_chnking_algo
+RBTREE_INDEXING_BITS	my-index.c	17;"	d	file:
+RBTREE_INDEXING_TABLE_SIZE	my-index.c	18;"	d	file:
+RB_BLACK	rbtree.h	103;"	d
+RB_CLEAR_NODE	rbtree.h	136;"	d
+RB_EMPTY_NODE	rbtree.h	135;"	d
+RB_EMPTY_ROOT	rbtree.h	134;"	d
+RB_RED	rbtree.h	102;"	d
+RB_ROOT	rbtree.h	131;"	d
+READ	libhashfile.h	/^	READ = 0,$/;"	e	enum:openmode
+SHA1_HASH	libhashfile.h	/^	SHA1_HASH = 6,$/;"	e	enum:hshing_method
+SHA256_HASH	libhashfile.h	/^	SHA256_HASH = 2,$/;"	e	enum:hshing_method
+SIMPLE_MATCH	libhashfile.h	/^	SIMPLE_MATCH = 2,$/;"	e	enum:var_chnking_algo
+USERS_NUM	my-index.c	19;"	d	file:
+VARIABLE	libhashfile.h	/^	VARIABLE = 2$/;"	e	enum:chnking_method
+WRITE	libhashfile.h	/^	WRITE = 1,$/;"	e	enum:openmode
+ZLIB_DEF	libhashfile.h	/^	ZLIB_DEF = 1$/;"	e	enum:cmpr_method
+_FILE_OFFSET_BITS	libhashfile.c	16;"	d	file:
+_HASHFILELIB_H	libhashfile.h	17;"	d
+_LINUX_LIST_H	list.h	2;"	d
+_LINUX_RBTREE_H	rbtree.h	95;"	d
+__hlist_del	list.h	/^static inline void __hlist_del(struct hlist_node *n)$/;"	f
+__list_add	list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_cut_position	list.h	/^static inline void __list_cut_position(struct list_head *list,$/;"	f
+__list_del	list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_for_each	list.h	380;"	d
+__list_splice	list.h	/^static inline void __list_splice(const struct list_head *list,$/;"	f
+__rb_erase_color	rbtree.c	/^static void __rb_erase_color(struct rb_node *node, struct rb_node *parent,$/;"	f	file:
+__rb_rotate_left	rbtree.c	/^static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+__rb_rotate_right	rbtree.c	/^static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+abstract_file_header	libhashfile.h	/^struct abstract_file_header {$/;"	s
+algo	libhashfile.h	/^	enum var_chnking_algo algo;$/;"	m	struct:var_chnking_params	typeref:enum:var_chnking_params::var_chnking_algo
+algo_params	libhashfile.h	/^	} algo_params;$/;"	m	struct:var_chnking_params	typeref:union:var_chnking_params::__anon1
+atime	libhashfile.h	/^	uint64_t atime;			\/* file atime *\/$/;"	m	struct:file_header_v3
+atime	libhashfile.h	/^	uint64_t atime;			\/* file atime *\/$/;"	m	struct:file_header_v4
+atime	libhashfile.h	/^	uint64_t atime;$/;"	m	struct:abstract_file_header
+bits_to_compare	libhashfile.h	/^	uint32_t bits_to_compare;$/;"	m	struct:var_rabin_chnk_params
+bits_to_compare	libhashfile.h	/^	uint32_t bits_to_compare;$/;"	m	struct:var_simple_chnk_params
+blocks	libhashfile.h	/^	uint64_t blocks;		\/* 512B blocks allocated by fs *\/$/;"	m	struct:file_header_v4
+blocks	libhashfile.h	/^	uint64_t blocks;$/;"	m	struct:abstract_file_header
+bytes	libhashfile.h	/^	uint64_t bytes;$/;"	m	struct:header_v4
+chnk_method	libhashfile.h	/^	enum chnking_method chnk_method;$/;"	m	struct:header	typeref:enum:header::chnking_method
+chnk_method	libhashfile.h	/^	enum chnking_method chnk_method;$/;"	m	struct:header_v3	typeref:enum:header_v3::chnking_method
+chnk_method	libhashfile.h	/^	enum chnking_method chnk_method;$/;"	m	struct:header_v4	typeref:enum:header_v4::chnking_method
+chnk_method_params	libhashfile.h	/^	} chnk_method_params;$/;"	m	struct:header	typeref:union:header::__anon2
+chnk_method_params	libhashfile.h	/^	} chnk_method_params;$/;"	m	struct:header_v3	typeref:union:header_v3::__anon3
+chnk_method_params	libhashfile.h	/^	} chnk_method_params;$/;"	m	struct:header_v4	typeref:union:header_v4::__anon4
+chnking_method	libhashfile.h	/^enum chnking_method$/;"	g
+chunk_info	libhashfile.h	/^struct chunk_info {$/;"	s
+chunk_size	libhashfile.h	/^	uint32_t chunk_size;$/;"	m	struct:fixed_chnking_params
+chunks	libhashfile.h	/^	uint64_t chunks;		\/* chunks\/indexes in this file *\/$/;"	m	struct:file_header
+chunks	libhashfile.h	/^	uint64_t chunks;		\/* chunks\/indexes in this file *\/$/;"	m	struct:file_header_v2
+chunks	libhashfile.h	/^	uint64_t chunks;		\/* chunks\/indexes in this file *\/$/;"	m	struct:file_header_v3
+chunks	libhashfile.h	/^	uint64_t chunks;		\/* chunks\/indexes in this file *\/$/;"	m	struct:file_header_v4
+chunks	libhashfile.h	/^	uint64_t chunks; 		\/* number of chunks\/indexes *\/$/;"	m	struct:header
+chunks	libhashfile.h	/^	uint64_t chunks; 		\/* number of chunks\/indexes *\/$/;"	m	struct:header_v3
+chunks	libhashfile.h	/^	uint64_t chunks; 		\/* number of chunks\/indexes *\/$/;"	m	struct:header_v4
+chunks	libhashfile.h	/^	uint64_t chunks;$/;"	m	struct:abstract_file_header
+cmpr_method	libhashfile.h	/^enum cmpr_method$/;"	g
+container_of	list.h	15;"	d
+convert_to_abstract_file_header	libhashfile.c	/^static void convert_to_abstract_file_header(int version, uint8_t *fhdr,$/;"	f	file:
+cratio	libhashfile.h	/^	uint8_t cratio;$/;"	m	struct:chunk_info
+ctime	libhashfile.h	/^	uint64_t ctime;			\/* file ctime *\/$/;"	m	struct:file_header_v3
+ctime	libhashfile.h	/^	uint64_t ctime;			\/* file ctime *\/$/;"	m	struct:file_header_v4
+ctime	libhashfile.h	/^	uint64_t ctime;$/;"	m	struct:abstract_file_header
+current_chunk_info	libhashfile.h	/^	struct chunk_info		current_chunk_info;$/;"	m	struct:hashfile_handle	typeref:struct:hashfile_handle::chunk_info
+current_file	libhashfile.h	/^	struct abstract_file_header 	current_file;$/;"	m	struct:hashfile_handle	typeref:struct:hashfile_handle::abstract_file_header
+current_file_header_offset	libhashfile.h	/^	off_t				current_file_header_offset;$/;"	m	struct:hashfile_handle
+dedup_table	my-index.c	/^int dedup_table[USERS_NUM][USERS_NUM];$/;"	v
+deviceid	libhashfile.h	/^	uint64_t deviceid;		\/* file device id *\/$/;"	m	struct:file_header_v3
+deviceid	libhashfile.h	/^	uint64_t deviceid;		\/* file device id *\/$/;"	m	struct:file_header_v4
+deviceid	libhashfile.h	/^	uint64_t deviceid;$/;"	m	struct:abstract_file_header
+distribute	my-index.c	/^	int distribute[USERS_NUM];$/;"	m	struct:rbtree_hash_element	file:
+do_add_file	libhashfile.c	/^static int do_add_file(struct hashfile_handle *handle, const char *file_path,$/;"	f	file:
+duplicate_count	my-index.c	/^	int duplicate_count;$/;"	m	struct:rbtree_hash_element	file:
+end_time	libhashfile.h	/^	uint64_t end_time;$/;"	m	struct:header_v3
+end_time	libhashfile.h	/^	uint64_t end_time;$/;"	m	struct:header_v4
+fd	libhashfile.h	/^	int 				fd;$/;"	m	struct:hashfile_handle
+file_header	libhashfile.h	/^struct file_header {$/;"	s
+file_header_v2	libhashfile.h	/^struct file_header_v2 {$/;"	s
+file_header_v3	libhashfile.h	/^struct file_header_v3 {$/;"	s
+file_header_v4	libhashfile.h	/^struct file_header_v4 {$/;"	s
+file_size	libhashfile.h	/^	uint64_t file_size;		\/* in bytes *\/$/;"	m	struct:file_header
+file_size	libhashfile.h	/^	uint64_t file_size;		\/* in bytes *\/$/;"	m	struct:file_header_v2
+file_size	libhashfile.h	/^	uint64_t file_size;		\/* in bytes *\/$/;"	m	struct:file_header_v3
+file_size	libhashfile.h	/^	uint64_t file_size;		\/* in bytes *\/$/;"	m	struct:file_header_v4
+file_size	libhashfile.h	/^	uint64_t file_size;$/;"	m	struct:abstract_file_header
+files	libhashfile.h	/^	uint64_t files;$/;"	m	struct:header
+files	libhashfile.h	/^	uint64_t files;$/;"	m	struct:header_v3
+files	libhashfile.h	/^	uint64_t files;$/;"	m	struct:header_v4
+fill_table	my-index.c	/^void fill_table(int* dis,int table[][USERS_NUM])$/;"	f
+first	list.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node
+fixed_chnking_params	libhashfile.h	/^struct fixed_chnking_params$/;"	s
+fixed_params	libhashfile.h	/^		struct fixed_chnking_params fixed_params;$/;"	m	union:header::__anon2	typeref:struct:header::__anon2::fixed_chnking_params
+fixed_params	libhashfile.h	/^		struct fixed_chnking_params fixed_params;$/;"	m	union:header_v3::__anon3	typeref:struct:header_v3::__anon3::fixed_chnking_params
+fixed_params	libhashfile.h	/^		struct fixed_chnking_params fixed_params;$/;"	m	union:header_v4::__anon4	typeref:struct:header_v4::__anon4::fixed_chnking_params
+gid	libhashfile.h	/^	uint32_t gid;			\/* gid of file owner *\/$/;"	m	struct:file_header_v3
+gid	libhashfile.h	/^	uint32_t gid;			\/* gid of file owner *\/$/;"	m	struct:file_header_v4
+gid	libhashfile.h	/^	uint32_t gid;$/;"	m	struct:abstract_file_header
+hardlinks	libhashfile.h	/^	uint64_t hardlinks;		\/* number of hardlinks *\/$/;"	m	struct:file_header_v3
+hardlinks	libhashfile.h	/^	uint64_t hardlinks;		\/* number of hardlinks *\/$/;"	m	struct:file_header_v4
+hardlinks	libhashfile.h	/^	uint64_t hardlinks;$/;"	m	struct:abstract_file_header
+hash	libhashfile.h	/^	uint8_t *hash; \/* this points to static memory! *\/$/;"	m	struct:chunk_info
+hash_size	libhashfile.h	/^	uint32_t hash_size;		\/* in bits *\/$/;"	m	struct:header
+hash_size	libhashfile.h	/^	uint32_t hash_size;		\/* in bits *\/$/;"	m	struct:header_v3
+hash_size	libhashfile.h	/^	uint32_t hash_size;		\/* in bits *\/$/;"	m	struct:header_v4
+hashfile_add_chunk	libhashfile.c	/^int hashfile_add_chunk(struct hashfile_handle *handle,$/;"	f
+hashfile_add_file	libhashfile.c	/^int hashfile_add_file(struct hashfile_handle *handle,$/;"	f
+hashfile_chunking_method	libhashfile.c	/^enum chnking_method hashfile_chunking_method(struct hashfile_handle *handle)$/;"	f
+hashfile_chunking_method_str	libhashfile.c	/^int hashfile_chunking_method_str(struct hashfile_handle *handle,$/;"	f
+hashfile_close	libhashfile.c	/^void hashfile_close(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_atime	libhashfile.c	/^uint64_t hashfile_curfile_atime(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_blocks	libhashfile.c	/^uint64_t hashfile_curfile_blocks(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_ctime	libhashfile.c	/^uint64_t hashfile_curfile_ctime(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_deviceid	libhashfile.c	/^uint64_t hashfile_curfile_deviceid(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_gid	libhashfile.c	/^uint32_t hashfile_curfile_gid(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_hardlinks	libhashfile.c	/^uint64_t hashfile_curfile_hardlinks(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_inodenum	libhashfile.c	/^uint64_t hashfile_curfile_inodenum(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_linkpath	libhashfile.c	/^char *hashfile_curfile_linkpath(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_mtime	libhashfile.c	/^uint64_t hashfile_curfile_mtime(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_numchunks	libhashfile.c	/^uint64_t hashfile_curfile_numchunks(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_path	libhashfile.c	/^const char *hashfile_curfile_path(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_perm	libhashfile.c	/^uint64_t hashfile_curfile_perm(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_size	libhashfile.c	/^uint64_t hashfile_curfile_size(struct hashfile_handle *handle)$/;"	f
+hashfile_curfile_uid	libhashfile.c	/^uint32_t hashfile_curfile_uid(struct hashfile_handle *handle)$/;"	f
+hashfile_end_time	libhashfile.c	/^uint64_t hashfile_end_time(struct hashfile_handle *handle)$/;"	f
+hashfile_fxd_chunking_params	libhashfile.c	/^int hashfile_fxd_chunking_params(struct hashfile_handle *handle,$/;"	f
+hashfile_handle	libhashfile.h	/^struct hashfile_handle {$/;"	s
+hashfile_hash_size	libhashfile.c	/^uint32_t hashfile_hash_size(struct hashfile_handle *handle)$/;"	f
+hashfile_hashing_method	libhashfile.c	/^enum hshing_method hashfile_hashing_method(struct hashfile_handle *handle)$/;"	f
+hashfile_hashing_method_str	libhashfile.c	/^int hashfile_hashing_method_str(struct hashfile_handle *handle,$/;"	f
+hashfile_next_chunk	libhashfile.c	/^const struct chunk_info *hashfile_next_chunk(struct hashfile_handle *handle)$/;"	f
+hashfile_next_file	libhashfile.c	/^int hashfile_next_file(struct hashfile_handle *handle)$/;"	f
+hashfile_numbytes	libhashfile.c	/^uint64_t hashfile_numbytes(struct hashfile_handle *handle)$/;"	f
+hashfile_numchunks	libhashfile.c	/^uint64_t hashfile_numchunks(struct hashfile_handle *handle)$/;"	f
+hashfile_numfiles	libhashfile.c	/^uint64_t hashfile_numfiles(struct hashfile_handle *handle)$/;"	f
+hashfile_open	libhashfile.c	/^struct hashfile_handle *hashfile_open(char *hashfile_name)$/;"	f
+hashfile_open4write	libhashfile.c	/^struct hashfile_handle *hashfile_open4write(char *hashfile_name, enum$/;"	f
+hashfile_reset	libhashfile.c	/^int hashfile_reset(struct hashfile_handle *handle)$/;"	f
+hashfile_rootpath	libhashfile.c	/^const char *hashfile_rootpath(struct hashfile_handle *handle)$/;"	f
+hashfile_set_fxd_chnking_params	libhashfile.c	/^int hashfile_set_fxd_chnking_params(struct hashfile_handle *handle,$/;"	f
+hashfile_set_var_chnking_params	libhashfile.c	/^int hashfile_set_var_chnking_params(struct hashfile_handle *handle,$/;"	f
+hashfile_start_time	libhashfile.c	/^uint64_t hashfile_start_time(struct hashfile_handle *handle)$/;"	f
+hashfile_sysid	libhashfile.c	/^const char *hashfile_sysid(struct hashfile_handle *handle)$/;"	f
+hashfile_var_chunking_params	libhashfile.c	/^int hashfile_var_chunking_params(struct hashfile_handle *handle,$/;"	f
+hashfile_version	libhashfile.c	/^uint32_t hashfile_version(struct hashfile_handle *handle)$/;"	f
+header	libhashfile.h	/^	struct header_v4		header;$/;"	m	struct:hashfile_handle	typeref:struct:hashfile_handle::header_v4
+header	libhashfile.h	/^struct header {$/;"	s
+header_v3	libhashfile.h	/^struct header_v3 {$/;"	s
+header_v4	libhashfile.h	/^struct header_v4 {$/;"	s
+hlist_add_after	list.h	/^static inline void hlist_add_after(struct hlist_node *n,$/;"	f
+hlist_add_before	list.h	/^static inline void hlist_add_before(struct hlist_node *n,$/;"	f
+hlist_add_head	list.h	/^static inline void hlist_add_head(struct hlist_node *n, struct hlist_head *h)$/;"	f
+hlist_del	list.h	/^static inline void hlist_del(struct hlist_node *n)$/;"	f
+hlist_del_init	list.h	/^static inline void hlist_del_init(struct hlist_node *n)$/;"	f
+hlist_empty	list.h	/^static inline int hlist_empty(const struct hlist_head *h)$/;"	f
+hlist_entry	list.h	648;"	d
+hlist_for_each	list.h	650;"	d
+hlist_for_each_entry	list.h	665;"	d
+hlist_for_each_entry_continue	list.h	677;"	d
+hlist_for_each_entry_from	list.h	689;"	d
+hlist_for_each_entry_safe	list.h	702;"	d
+hlist_for_each_safe	list.h	654;"	d
+hlist_head	list.h	/^struct hlist_head {$/;"	s
+hlist_move_list	list.h	/^static inline void hlist_move_list(struct hlist_head *old,$/;"	f
+hlist_node	list.h	/^struct hlist_node {$/;"	s
+hlist_unhashed	list.h	/^static inline int hlist_unhashed(const struct hlist_node *h)$/;"	f
+hsh_method	libhashfile.h	/^	enum hshing_method hsh_method;$/;"	m	struct:header	typeref:enum:header::hshing_method
+hsh_method	libhashfile.h	/^	enum hshing_method hsh_method;$/;"	m	struct:header_v3	typeref:enum:header_v3::hshing_method
+hsh_method	libhashfile.h	/^	enum hshing_method hsh_method;$/;"	m	struct:header_v4	typeref:enum:header_v4::hshing_method
+hshing_method	libhashfile.h	/^enum hshing_method$/;"	g
+inodenum	libhashfile.h	/^	uint64_t inodenum;		\/* file inode number *\/$/;"	m	struct:file_header_v3
+inodenum	libhashfile.h	/^	uint64_t inodenum;		\/* file inode number *\/$/;"	m	struct:file_header_v4
+inodenum	libhashfile.h	/^	uint64_t inodenum;$/;"	m	struct:abstract_file_header
+key	my-index.c	/^	unsigned char *key;$/;"	m	struct:rbtree_hash_element	file:
+keysz	my-index.c	/^	int keysz; \/* in bytes *\/$/;"	m	struct:rbtree_hash_element	file:
+list_add	list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_cut_position	list.h	/^static inline void list_cut_position(struct list_head *list,$/;"	f
+list_del	list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_empty	list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_empty_careful	list.h	/^static inline int list_empty_careful(const struct list_head *head)$/;"	f
+list_entry	list.h	347;"	d
+list_first_entry	list.h	358;"	d
+list_for_each	list.h	366;"	d
+list_for_each_entry	list.h	419;"	d
+list_for_each_entry_continue	list.h	455;"	d
+list_for_each_entry_continue_reverse	list.h	469;"	d
+list_for_each_entry_from	list.h	482;"	d
+list_for_each_entry_reverse	list.h	430;"	d
+list_for_each_entry_safe	list.h	493;"	d
+list_for_each_entry_safe_continue	list.h	509;"	d
+list_for_each_entry_safe_from	list.h	525;"	d
+list_for_each_entry_safe_reverse	list.h	540;"	d
+list_for_each_prev	list.h	388;"	d
+list_for_each_prev_safe	list.h	408;"	d
+list_for_each_safe	list.h	398;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_is_last	list.h	/^static inline int list_is_last(const struct list_head *list,$/;"	f
+list_is_singular	list.h	/^static inline int list_is_singular(const struct list_head *head)$/;"	f
+list_move	list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_prepare_entry	list.h	443;"	d
+list_replace	list.h	/^static inline void list_replace(struct list_head *old,$/;"	f
+list_replace_init	list.h	/^static inline void list_replace_init(struct list_head *old,$/;"	f
+list_rotate_left	list.h	/^static inline void list_rotate_left(struct list_head *head)$/;"	f
+list_splice	list.h	/^static inline void list_splice(const struct list_head *list,$/;"	f
+list_splice_init	list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_splice_tail	list.h	/^static inline void list_splice_tail(struct list_head *list,$/;"	f
+list_splice_tail_init	list.h	/^static inline void list_splice_tail_init(struct list_head *list,$/;"	f
+magic	libhashfile.h	/^	uint32_t magic;$/;"	m	struct:header
+magic	libhashfile.h	/^	uint32_t magic;$/;"	m	struct:header_v3
+magic	libhashfile.h	/^	uint32_t magic;$/;"	m	struct:header_v4
+main	my-index.c	/^int main(int argc, char* argv[])$/;"	f
+max	libhashfile.c	36;"	d	file:
+max2	libhashfile.c	35;"	d	file:
+max_csize	libhashfile.h	/^	uint32_t max_csize;		\/* in bytes *\/$/;"	m	struct:var_chnking_params
+min_csize	libhashfile.h	/^	uint32_t min_csize;		\/* in bytes *\/$/;"	m	struct:var_chnking_params
+module	libhashfile.h	/^	uint64_t module;$/;"	m	struct:var_rabin_chnk_params
+mtime	libhashfile.h	/^	uint64_t mtime;			\/* file mtime *\/$/;"	m	struct:file_header_v3
+mtime	libhashfile.h	/^	uint64_t mtime;			\/* file mtime *\/$/;"	m	struct:file_header_v4
+mtime	libhashfile.h	/^	uint64_t mtime;$/;"	m	struct:abstract_file_header
+next	list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node
+next	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+node	my-index.c	/^	struct rb_node node;$/;"	m	struct:rbtree_hash_element	typeref:struct:rbtree_hash_element::rb_node	file:
+num_files_processed	libhashfile.h	/^	uint64_t			num_files_processed;$/;"	m	struct:hashfile_handle
+num_hashes_processed_current_file	libhashfile.h	/^	uint64_t			num_hashes_processed_current_file;$/;"	m	struct:hashfile_handle
+omode	libhashfile.h	/^	enum openmode			omode;$/;"	m	struct:hashfile_handle	typeref:enum:hashfile_handle::openmode
+openmode	libhashfile.h	/^enum openmode {$/;"	g
+path	libhashfile.h	/^	char path[0];			\/* non-null terminated path$/;"	m	struct:file_header_v2
+path	libhashfile.h	/^	char path[0];			\/* non-null terminated path$/;"	m	struct:file_header_v3
+path	libhashfile.h	/^	char path[0];			\/* non-null terminated path$/;"	m	struct:file_header_v4
+path	libhashfile.h	/^	char path[MAX_PATH_SIZE];$/;"	m	struct:abstract_file_header
+path	libhashfile.h	/^	char path[MAX_PATH_SIZE];$/;"	m	struct:file_header
+path_root	libhashfile.h	/^	char path_root[MAX_PATH_SIZE];	\/* where the scan has started *\/$/;"	m	struct:header
+path_root	libhashfile.h	/^	char path_root[MAX_PATH_SIZE];	\/* where the scan has started *\/$/;"	m	struct:header_v3
+path_root	libhashfile.h	/^	char path_root[MAX_PATH_SIZE];	\/* where the scan has started *\/$/;"	m	struct:header_v4
+pathlen	libhashfile.h	/^	uint32_t pathlen;		\/* length of the following path *\/$/;"	m	struct:file_header_v2
+pathlen	libhashfile.h	/^	uint32_t pathlen;		\/* length of the following path *\/$/;"	m	struct:file_header_v3
+pathlen	libhashfile.h	/^	uint32_t pathlen;		\/* length of the following path *\/$/;"	m	struct:file_header_v4
+pathlen	libhashfile.h	/^	uint32_t pathlen;$/;"	m	struct:abstract_file_header
+pattern	libhashfile.h	/^	uint64_t pattern;$/;"	m	struct:var_rabin_chnk_params
+pattern	libhashfile.h	/^	uint64_t pattern;$/;"	m	struct:var_simple_chnk_params
+perm	libhashfile.h	/^	uint64_t perm;			\/* file mode *\/$/;"	m	struct:file_header_v3
+perm	libhashfile.h	/^	uint64_t perm;			\/* file mode *\/$/;"	m	struct:file_header_v4
+perm	libhashfile.h	/^	uint64_t perm;$/;"	m	struct:abstract_file_header
+pprev	list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::
+prefetch	list.h	6;"	d
+prev	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+prime	libhashfile.h	/^	uint64_t prime;$/;"	m	struct:var_rabin_chnk_params
+probability	libhashfile.h	/^	long double probability;	\/* probability to chunk a stream *\/$/;"	m	struct:var_random_chnk_params
+rabin_params	libhashfile.h	/^		struct var_rabin_chnk_params rabin_params;$/;"	m	union:var_chnking_params::__anon1	typeref:struct:var_chnking_params::__anon1::var_rabin_chnk_params
+rb_augment_erase_begin	rbtree.c	/^struct rb_node *rb_augment_erase_begin(struct rb_node *node)$/;"	f
+rb_augment_erase_end	rbtree.c	/^void rb_augment_erase_end(struct rb_node *node, rb_augment_f func, void *data)$/;"	f
+rb_augment_f	rbtree.h	/^typedef void (*rb_augment_f)(struct rb_node *node, void *data);$/;"	t
+rb_augment_insert	rbtree.c	/^void rb_augment_insert(struct rb_node *node, rb_augment_f func, void *data)$/;"	f
+rb_augment_path	rbtree.c	/^static void rb_augment_path(struct rb_node *node, rb_augment_f func, void *data)$/;"	f	file:
+rb_color	rbtree.h	116;"	d
+rb_entry	rbtree.h	132;"	d
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_first	rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_is_black	rbtree.h	118;"	d
+rb_is_red	rbtree.h	117;"	d
+rb_last	rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f
+rb_next	rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	rbtree.h	/^struct rb_node$/;"	s
+rb_parent	rbtree.h	115;"	d
+rb_parent_color	rbtree.h	/^	unsigned long  rb_parent_color;$/;"	m	struct:rb_node
+rb_prev	rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_replace_node	rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	rbtree.h	/^struct rb_root$/;"	s
+rb_set_black	rbtree.h	120;"	d
+rb_set_color	rbtree.h	/^static inline void rb_set_color(struct rb_node *rb, int color)$/;"	f
+rb_set_parent	rbtree.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f
+rb_set_red	rbtree.h	119;"	d
+rbtree_hash_element	my-index.c	/^struct rbtree_hash_element {$/;"	s	file:
+rbtree_hash_table	my-index.c	/^struct rb_root *rbtree_hash_table;$/;"	v	typeref:struct:rb_root
+rbtree_init_key_value_store	my-index.c	/^static int rbtree_init_key_value_store()$/;"	f	file:
+rbtree_insert	my-index.c	/^static int rbtree_insert(struct rb_root *root, struct rbtree_hash_element *ele)$/;"	f	file:
+rbtree_store_key_value	my-index.c	/^static int rbtree_store_key_value(unsigned char *key, int keysz, char *value, int id)$/;"	f	file:
+rnd_params	libhashfile.h	/^		struct var_random_chnk_params rnd_params;$/;"	m	union:var_chnking_params::__anon1	typeref:struct:var_chnking_params::__anon1::var_random_chnk_params
+search_rbtree	my-index.c	/^static struct  rbtree_hash_element* search_rbtree(struct rb_root *root, unsigned char *key,int debug)$/;"	f	file:
+simple_params	libhashfile.h	/^		struct var_simple_chnk_params simple_params;$/;"	m	union:var_chnking_params::__anon1	typeref:struct:var_chnking_params::__anon1::var_simple_chnk_params
+size	libhashfile.h	/^	uint64_t size;$/;"	m	struct:chunk_info
+skip_over_current_file_hashes	libhashfile.c	/^static uint64_t skip_over_current_file_hashes(struct hashfile_handle *handle)$/;"	f	file:
+start_time	libhashfile.h	/^	uint64_t start_time;$/;"	m	struct:header_v3
+start_time	libhashfile.h	/^	uint64_t start_time;$/;"	m	struct:header_v4
+statistics_dedupe	my-index.c	/^int statistics_dedupe(struct rb_node *root, int table[][USERS_NUM])$/;"	f
+sysid	libhashfile.h	/^	char sysid[MAX_SYSID_LEN];$/;"	m	struct:header_v3
+sysid	libhashfile.h	/^	char sysid[MAX_SYSID_LEN];$/;"	m	struct:header_v4
+target_path	libhashfile.h	/^	char target_path[0];		\/* non-null terminated$/;"	m	struct:file_header_v3
+target_path	libhashfile.h	/^	char target_path[0];		\/* non-null terminated$/;"	m	struct:file_header_v4
+target_path	libhashfile.h	/^	char target_path[MAX_PATH_SIZE];$/;"	m	struct:abstract_file_header
+target_pathlen	libhashfile.h	/^	uint32_t target_pathlen;	\/* length of the following target_path *\/$/;"	m	struct:file_header_v3
+target_pathlen	libhashfile.h	/^	uint32_t target_pathlen;	\/* length of the following target_path *\/$/;"	m	struct:file_header_v4
+target_pathlen	libhashfile.h	/^	uint32_t target_pathlen;$/;"	m	struct:abstract_file_header
+total_dedup	my-index.c	/^int total_dedup[USERS_NUM];$/;"	v
+uid	libhashfile.h	/^	uint32_t uid;			\/* uid of file owner *\/$/;"	m	struct:file_header_v3
+uid	libhashfile.h	/^	uint32_t uid;			\/* uid of file owner *\/$/;"	m	struct:file_header_v4
+uid	libhashfile.h	/^	uint32_t uid;$/;"	m	struct:abstract_file_header
+value	my-index.c	/^	char *value;$/;"	m	struct:rbtree_hash_element	file:
+var_chnking_algo	libhashfile.h	/^enum var_chnking_algo$/;"	g
+var_chnking_params	libhashfile.h	/^struct var_chnking_params$/;"	s
+var_params	libhashfile.h	/^		struct var_chnking_params var_params;$/;"	m	union:header::__anon2	typeref:struct:header::__anon2::var_chnking_params
+var_params	libhashfile.h	/^		struct var_chnking_params var_params;$/;"	m	union:header_v3::__anon3	typeref:struct:header_v3::__anon3::var_chnking_params
+var_params	libhashfile.h	/^		struct var_chnking_params var_params;$/;"	m	union:header_v4::__anon4	typeref:struct:header_v4::__anon4::var_chnking_params
+var_rabin_chnk_params	libhashfile.h	/^struct var_rabin_chnk_params {$/;"	s
+var_random_chnk_params	libhashfile.h	/^struct var_random_chnk_params {$/;"	s
+var_simple_chnk_params	libhashfile.h	/^struct var_simple_chnk_params {$/;"	s
+version	libhashfile.h	/^	uint32_t version;$/;"	m	struct:header
+version	libhashfile.h	/^	uint32_t version;$/;"	m	struct:header_v3
+version	libhashfile.h	/^	uint32_t version;$/;"	m	struct:header_v4
+version_supported	libhashfile.c	/^static inline int version_supported(uint32_t version)$/;"	f	file:
+window_size	libhashfile.h	/^	uint32_t window_size; 		\/* in bytes *\/$/;"	m	struct:var_rabin_chnk_params
